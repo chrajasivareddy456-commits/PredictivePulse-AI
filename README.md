@@ -1,37 +1,3 @@
-Yes. Below is the **final GitHub-ready README** based on all the requirements we established:
-
-* Professional appearance similar to your MediStream example
-* Centered title and subtitle
-* Live Demo / GitHub / Documentation buttons
-* Technology badges
-* Table of Contents
-* **Only your 4 actual diagrams** from `docs/`
-* **No ASCII diagrams**
-* **No 11 screenshots displayed inside README**
-* Screenshots remain available through the `screenshots/` folder
-* Complete project explanation
-* Dataset and ML details
-* Model evaluation
-* Architecture and DFD
-* Installation
-* Deployment
-* API
-* Limitations
-* Future scope
-* Author section
-
-### Before pasting
-
-You only need to replace these two placeholders everywhere they occur:
-
-```text
-YOUR_LIVE_DEMO_URL
-YOUR_GITHUB_REPOSITORY_URL
-```
-
-with your actual deployed application URL and GitHub repository URL.
-
-````markdown
 <div align="center">
 
 # 🚀 PredictivePulse AI
@@ -45,7 +11,7 @@ with your actual deployed application URL and GitHub repository URL.
     <strong>🌐 LIVE DEMO</strong>
   </a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="YOUR_GITHUB_REPOSITORY_URL">
+  <a href="https://github.com/chrajasivareddy456-commits/PredictivePulse-AI">
     <strong>💻 GITHUB REPOSITORY</strong>
   </a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
@@ -685,8 +651,6 @@ PredictivePulse-AI/
 ├── backend/
 │
 ├── ml-service/
-│   ├── data/
-│   │   └── sensor.csv
 │   ├── models/
 │   │   ├── classifier.joblib
 │   │   ├── anomaly_model.joblib
@@ -734,30 +698,6 @@ PredictivePulse-AI/
 ├── .gitignore
 └── README.md
 ```
-
----
-
-# 🖥️ Application Screenshots
-
-The README intentionally does not embed all application screenshots in order to keep the documentation concise and professional.
-
-The complete collection of application screenshots is available in the repository:
-
-**[📸 Open Application Screenshots](screenshots/)**
-
-The screenshot collection includes:
-
-* Login
-* Registration
-* Dashboard
-* Machine Management
-* Machine Details
-* Single Machine Analysis
-* CSV Upload
-* Prediction Result
-* Prediction History
-* Analytics
-* Model Information
 
 ---
 
@@ -1252,7 +1192,7 @@ PredictivePulse AI was developed as an academic/internship project focused on pr
 
 ### 💻 GitHub Repository
 
-**[📦 View Source Code](YOUR_GITHUB_REPOSITORY_URL)**
+**[📦 View Source Code](https://github.com/chrajasivareddy456-commits/PredictivePulse-AI)**
 
 ### 📚 API Documentation
 
@@ -1277,5 +1217,5 @@ http://localhost:8000/docs
 ⭐ **If you find this project useful, consider giving the repository a star!** ⭐
 
 </div>
-```
+
 
