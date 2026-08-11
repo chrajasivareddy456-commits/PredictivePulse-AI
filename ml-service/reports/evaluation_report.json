@@ -1,0 +1,102 @@
+{
+  "DecisionTree": {
+    "model_name": "DecisionTree",
+    "accuracy": 0.9992283950617284,
+    "macro_precision": 0.6635245977408574,
+    "macro_recall": 0.6658723397161839,
+    "macro_f1": 0.6646936991922497,
+    "weighted_f1": 0.9992069815228996,
+    "per_class": {
+      "NORMAL": {
+        "precision": 0.9998298782414271,
+        "recall": 0.9993441348653047,
+        "f1": 0.9995869475423379,
+        "support": 41167
+      },
+      "RECOVERING": {
+        "precision": 0.990743914981145,
+        "recall": 0.998272884283247,
+        "f1": 0.9944941500344116,
+        "support": 2895
+      },
+      "BROKEN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      }
+    },
+    "confusion_matrix": [
+      [
+        41140,
+        27,
+        0
+      ],
+      [
+        5,
+        2890,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "NORMAL",
+      "RECOVERING",
+      "BROKEN"
+    ]
+  },
+  "RandomForest": {
+    "model_name": "RandomForest",
+    "accuracy": 0.9998184458968773,
+    "macro_precision": 0.6662807599879699,
+    "macro_recall": 0.666296952222031,
+    "macro_f1": 0.66628885590834,
+    "weighted_f1": 0.9997957538390261,
+    "per_class": {
+      "NORMAL": {
+        "precision": 0.9998785493939615,
+        "recall": 0.999927126096145,
+        "f1": 0.9999028371550719,
+        "support": 41167
+      },
+      "RECOVERING": {
+        "precision": 0.9989637305699481,
+        "recall": 0.9989637305699481,
+        "f1": 0.9989637305699481,
+        "support": 2895
+      },
+      "BROKEN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      }
+    },
+    "confusion_matrix": [
+      [
+        41164,
+        3,
+        0
+      ],
+      [
+        3,
+        2892,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "NORMAL",
+      "RECOVERING",
+      "BROKEN"
+    ]
+  }
+}

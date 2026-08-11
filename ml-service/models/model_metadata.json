@@ -1,0 +1,244 @@
+{
+  "model_name": "RandomForest",
+  "training_date": "2026-08-09T14:38:44.737055+00:00",
+  "dataset_path": "data/sensor.csv",
+  "dataset_size": 220320,
+  "training_size": 176256,
+  "test_size": 44064,
+  "feature_count": 51,
+  "dropped_features": [
+    "sensor_15 (100% missing in source data)"
+  ],
+  "classes": [
+    "NORMAL",
+    "RECOVERING",
+    "BROKEN"
+  ],
+  "class_distribution_full_dataset": {
+    "NORMAL": 205836,
+    "RECOVERING": 14477,
+    "BROKEN": 7
+  },
+  "split_strategy": "stratified_random_80_20 (see train.py docstring for rationale)",
+  "evaluations": {
+    "DecisionTree": {
+      "model_name": "DecisionTree",
+      "accuracy": 0.9992283950617284,
+      "macro_precision": 0.6635245977408574,
+      "macro_recall": 0.6658723397161839,
+      "macro_f1": 0.6646936991922497,
+      "weighted_f1": 0.9992069815228996,
+      "per_class": {
+        "NORMAL": {
+          "precision": 0.9998298782414271,
+          "recall": 0.9993441348653047,
+          "f1": 0.9995869475423379,
+          "support": 41167
+        },
+        "RECOVERING": {
+          "precision": 0.990743914981145,
+          "recall": 0.998272884283247,
+          "f1": 0.9944941500344116,
+          "support": 2895
+        },
+        "BROKEN": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2
+        }
+      },
+      "confusion_matrix": [
+        [
+          41140,
+          27,
+          0
+        ],
+        [
+          5,
+          2890,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "NORMAL",
+        "RECOVERING",
+        "BROKEN"
+      ]
+    },
+    "RandomForest": {
+      "model_name": "RandomForest",
+      "accuracy": 0.9998184458968773,
+      "macro_precision": 0.6662807599879699,
+      "macro_recall": 0.666296952222031,
+      "macro_f1": 0.66628885590834,
+      "weighted_f1": 0.9997957538390261,
+      "per_class": {
+        "NORMAL": {
+          "precision": 0.9998785493939615,
+          "recall": 0.999927126096145,
+          "f1": 0.9999028371550719,
+          "support": 41167
+        },
+        "RECOVERING": {
+          "precision": 0.9989637305699481,
+          "recall": 0.9989637305699481,
+          "f1": 0.9989637305699481,
+          "support": 2895
+        },
+        "BROKEN": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2
+        }
+      },
+      "confusion_matrix": [
+        [
+          41164,
+          3,
+          0
+        ],
+        [
+          3,
+          2892,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "NORMAL",
+        "RECOVERING",
+        "BROKEN"
+      ]
+    }
+  },
+  "selected_model_metrics": {
+    "model_name": "RandomForest",
+    "accuracy": 0.9998184458968773,
+    "macro_precision": 0.6662807599879699,
+    "macro_recall": 0.666296952222031,
+    "macro_f1": 0.66628885590834,
+    "weighted_f1": 0.9997957538390261,
+    "per_class": {
+      "NORMAL": {
+        "precision": 0.9998785493939615,
+        "recall": 0.999927126096145,
+        "f1": 0.9999028371550719,
+        "support": 41167
+      },
+      "RECOVERING": {
+        "precision": 0.9989637305699481,
+        "recall": 0.9989637305699481,
+        "f1": 0.9989637305699481,
+        "support": 2895
+      },
+      "BROKEN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 2
+      }
+    },
+    "confusion_matrix": [
+      [
+        41164,
+        3,
+        0
+      ],
+      [
+        3,
+        2892,
+        0
+      ],
+      [
+        2,
+        0,
+        0
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "NORMAL",
+      "RECOVERING",
+      "BROKEN"
+    ]
+  },
+  "isolation_forest": {
+    "contamination": 0.02,
+    "n_estimators": 200,
+    "trained_on": "NORMAL-labelled training rows only",
+    "test_anomaly_rate_by_true_class": {
+      "NORMAL": 0.01977311924599801,
+      "RECOVERING": 0.6970639032815199,
+      "BROKEN": 0.5
+    }
+  },
+  "feature_importance": {
+    "sensor_04": 0.1442179227810349,
+    "sensor_12": 0.08936290705335154,
+    "sensor_11": 0.06975288757053161,
+    "sensor_10": 0.06262901942649489,
+    "sensor_00": 0.05838059724361127,
+    "sensor_02": 0.05448917214042884,
+    "sensor_50": 0.053351936317721775,
+    "sensor_13": 0.04012675578586404,
+    "sensor_05": 0.032288460823191194,
+    "sensor_28": 0.029302224638533114,
+    "sensor_48": 0.026597526891699284,
+    "sensor_03": 0.0250500379495417,
+    "sensor_40": 0.024500485905247185,
+    "sensor_06": 0.022644441465879146,
+    "sensor_51": 0.022592918322515674,
+    "sensor_49": 0.020551272344666856,
+    "sensor_38": 0.01992329751906197,
+    "sensor_01": 0.017709595717396033,
+    "sensor_44": 0.015799865719293357,
+    "sensor_39": 0.01049878087034227,
+    "sensor_23": 0.009718433020906119,
+    "sensor_07": 0.008942906812241965,
+    "sensor_36": 0.008036245249452153,
+    "sensor_08": 0.007503362198203187,
+    "sensor_21": 0.007370090512688306,
+    "sensor_24": 0.006998354797660911,
+    "sensor_30": 0.0063155884678055794,
+    "sensor_27": 0.006283972697778373,
+    "sensor_42": 0.006149374042816402,
+    "sensor_33": 0.005924362994640385,
+    "sensor_43": 0.005790505045262629,
+    "sensor_09": 0.005642279831589357,
+    "sensor_41": 0.0051759358735175365,
+    "sensor_22": 0.005152264782521771,
+    "sensor_17": 0.004767422928490593,
+    "sensor_47": 0.004720788764734071,
+    "sensor_25": 0.004685752012014035,
+    "sensor_46": 0.004489297289898624,
+    "sensor_35": 0.004407754046700865,
+    "sensor_45": 0.004258102879933605,
+    "sensor_37": 0.004174404461728899,
+    "sensor_19": 0.003951732989973263,
+    "sensor_18": 0.003906375734620961,
+    "sensor_31": 0.0038539136362323793,
+    "sensor_20": 0.0036809349171411467,
+    "sensor_14": 0.003577989294865898,
+    "sensor_34": 0.0034963428934171163,
+    "sensor_32": 0.003424686660064342,
+    "sensor_29": 0.0034116503122149054,
+    "sensor_26": 0.0029932555171926795,
+    "sensor_16": 0.0014258128472854343
+  },
+  "known_limitations": [
+    "BROKEN class has only 7 total labelled examples in the source dataset; any BROKEN-class metric (precision/recall/F1) is statistically unreliable and should not be treated as a robust estimate of real-world performance.",
+    "Stratified (not chronological) train/test split was used specifically so that BROKEN examples could appear in both partitions; this trades some risk of temporal leakage for the ability to evaluate the rare class at all.",
+    "Isolation Forest flags statistically unusual sensor patterns; it does not identify the specific cause or fault type of an anomaly.",
+    "This is a research/internship prototype, not a certified industrial control system."
+  ]
+}
