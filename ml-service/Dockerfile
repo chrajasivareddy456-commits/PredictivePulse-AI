@@ -4,6 +4,5 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 EXPOSE 8000
-# NOTE: models must be trained before/after build — run:
-#   docker compose exec ml-service python training/train.py
+
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
