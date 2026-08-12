@@ -7,7 +7,7 @@
 **Smart Sensor Analysis • Failure Classification • Anomaly Detection • Risk Assessment • Predictive Maintenance**
 
 <p>
-  <a href="YOUR_LIVE_DEMO_URL">
+  <a href="https://predictive-pulse-ai.vercel.app/">
     <strong>🌐 LIVE DEMO</strong>
   </a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
@@ -15,21 +15,19 @@
     <strong>💻 GITHUB REPOSITORY</strong>
   </a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="YOUR_LIVE_DEMO_URL">
+  <a href="https://predictive-pulse-ai.vercel.app/">
     <strong>🚀 DEPLOYED APPLICATION</strong>
   </a>
 </p>
 
 <p>
-  <strong>React</strong> •
-  <strong>Vite</strong> •
-  <strong>Node.js</strong> •
-  <strong>Express.js</strong> •
-  <strong>Python</strong> •
-  <strong>FastAPI</strong> •
-  <strong>scikit-learn</strong> •
-  <strong>MongoDB Atlas</strong> •
-  <strong>Docker</strong>
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Vite-6.x-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Python-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
 </p>
 
 </div>
@@ -925,7 +923,7 @@ PredictivePulse AI has been deployed as a multi-service application consisting o
 
 ## 🚀 Live Application
 
-**[🌐 Visit PredictivePulse AI](YOUR_LIVE_DEMO_URL)**
+**[🌐 Visit PredictivePulse AI](https://predictive-pulse-ai.vercel.app/)**
 
 Replace `YOUR_LIVE_DEMO_URL` with the actual deployed frontend URL.
 
@@ -1188,7 +1186,7 @@ PredictivePulse AI was developed as an academic/internship project focused on pr
 
 ### 🌐 Live Application
 
-**[🚀 Visit PredictivePulse AI](YOUR_LIVE_DEMO_URL)**
+**[🚀 Visit PredictivePulse AI](https://predictive-pulse-ai.vercel.app/)**
 
 ### 💻 GitHub Repository
 
