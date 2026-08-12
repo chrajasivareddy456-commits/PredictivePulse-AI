@@ -12,17 +12,7 @@ async function checkHealth() {
     const { data } = await client.get("/health");
     return { online: true, ...data };
   } catch (err) {
-    console.error("[mlService] Health check failed:", {
-      message: err.message,
-      code: err.code,
-      status: err.response?.status,
-      data: err.response?.data,
-    });
-
-    return {
-      online: false,
-      error: err.message,
-    };
+    return { online: false };
   }
 }
 
